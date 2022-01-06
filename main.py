@@ -186,11 +186,17 @@ def analyze_and_output(str_to_analyse):
 def main():
     example1 = "T__12 := TE__4 INTERSECT (EM__L UNION DEP__2 WHERE salary_s1 > 4015)"
     example2 = "BeginRA " \
-               "CREATE TABLE fds sd group__12 (num_g12 integer, name_g12 text (60));" \
+               "CREATE TABLE group__12 (num_g12 integer, name_g12 text (60));" \
                "INSERT INTO group__12 VALUES (1, 'Цикл ГСЕ дисциплін вибору')" \
-               "EndRA  dawd asdw"
+               "EndRA"
+    example3 = "BeginRA " \
+               "CREATE TABLE fds sd ad_-dw-ad=-pawasf group__12 (num_g12 integer, name_g12 text (60));" \
+               "INSERT INTO group__12 VALUES (1, 'Цикл ГСЕ дисциплін вибору')" \
+               "EndRA   Dawg MightyPoot"
     analyze_and_output(example1)
     analyze_and_output(example2)
+    analyze_and_output(example3)
+    input()
 
 
 if __name__ == '__main__':
